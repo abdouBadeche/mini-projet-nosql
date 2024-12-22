@@ -1,0 +1,4 @@
+SELECT ?v0 WHERE {
+    ?v0 <http://example.org/predicate1> <http://example.org/object1> .
+    <http://example.org/subject2> <http://example.org/predicate2> <http://example.org/object2> .
+}

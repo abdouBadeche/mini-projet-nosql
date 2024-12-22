@@ -1,0 +1,13 @@
+SELECT ?v0 WHERE {
+    ?v0 <http://schema.org/eligibleRegion> .
+}
+
+SELECT ?v0 WHERE {
+    ?v0 <http://db.uwaterloo.ca/~galuc/wsdbm/likes> <http://db.uwaterloo.ca/~galuc/wsdbm/Product0>
+    ?v0 <http://schema.org/nationality> <http://db.uwaterloo.ca/~galuc/wsdbm/Country3> .
+}
+
+SELECT ?v0 WHERE {
+    ?v0 <http://purl.org/dc/terms/Location> <http://db.uwaterloo.ca/~galuc/wsdbm/City2> .
+    <http://schema.org/nationality> <http://db.uwaterloo.ca/~galuc/wsdbm/Country169> .
+}
